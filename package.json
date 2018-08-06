@@ -1,16 +1,13 @@
 {
     "name": "@xolabot/bundler",
     "description": "Xolabot Module Bundler",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Nemanja Krstić <nemanja.d.krstic@gmail.com>",
     "license": "MIT",
     "main": "config/webpack.config.js",
     "repository": {
         "type": "git",
         "url": "git@github.com:nemanjakrstic/buildpack.git"
-    },
-    "bin": {
-        "xolabot-bundler": "node_modules/webpack/bin/webpack.js"
     },
     "dependencies": {
         "@babel/core": "^7.0.0-beta.56",
